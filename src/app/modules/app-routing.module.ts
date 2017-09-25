@@ -11,7 +11,7 @@ import {ContactComponent} from "../components/Contact/contact.component";
 const routes:Routes=[
     {path: 'home', component: HomeComponent, pathMatch: 'full'},
     {path: 'contact', component: ContactComponent, pathMatch: 'full'},
-    {path: '', redirectTo: '/home', pathMatch: 'full'}
+    {path: '', component: HomeComponent, pathMatch: 'full'},
 ];
 
 @NgModule({
