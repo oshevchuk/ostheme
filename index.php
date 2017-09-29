@@ -24,11 +24,11 @@
 
 <app-root>loading..</app-root>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/inline.bundle.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/polyfills.bundle.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/styles.bundle.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/vendor.bundle.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/main.bundle.js"></script>
+<script defer type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/inline.bundle.js"></script>
+<script defer type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/polyfills.bundle.js"></script>
+<script defer type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/styles.bundle.js"></script>
+<script defer type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/vendor.bundle.js"></script>
+<script defer type="text/javascript" src="<?php echo get_template_directory_uri();?>/dist/main.bundle.js"></script>
 
 <?php wp_footer(); ?>
 </body>
